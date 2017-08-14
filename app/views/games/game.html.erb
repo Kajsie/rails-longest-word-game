@@ -1,0 +1,17 @@
+<h1>Games#game</h1>
+<p>Find me in app/views/games/game.html.erb</p>
+
+<p>******** Welcome to the longest word-game!********</p>
+<p>Here is your grid:</p>
+
+<%= grid = @grid %>
+<%=grid.join(" ")%>
+<p>*****************************************************</p>
+
+<p>What's your best shot?"</p>
+<%=start_time = Time.now %>
+<!-- get user input with a form-->
+<%=end_time = Time.now %>
+
+<!-- need a form to be able to link it to the score.html.rb -->
+<!-- maybe have the time variabels in controller -->
